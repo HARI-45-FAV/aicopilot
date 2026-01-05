@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🧠 AI Health Co-Pilot
 
-## Getting Started
+An AI-Native Consumer Health Experience
 
-First, run the development server:
+“Understand food labels like a human, not a scientist.”
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📌 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+AI Health Co-Pilot is an AI-native web application that helps people understand food ingredients at the moment decisions matter.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Instead of dumping ingredient lists or scientific explanations, the system acts like a smart co-pilot:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+It reads ingredients
 
-## Learn More
+Infers what matters
 
-To learn more about Next.js, take a look at the following resources:
+Explains in simple, human language
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Communicates uncertainty honestly
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Gives a clear, actionable verdict
 
-## Deploy on Vercel
+This project was built for the Code To Innovate Hackathon under the problem statement:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Designing AI-Native Consumer Health Experiences
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+❓ The Problem
+
+Food labels today are:
+
+Optimized for regulatory compliance, not humans
+
+Full of chemical names most people don’t understand
+
+Often contradictory or confusing
+
+Consumers are expected to interpret:
+
+Long ingredient lists
+
+Unfamiliar additives
+
+Mixed or evolving health guidance
+
+As a result, people feel uncertain exactly when they need clarity.
+
+💡 Our Solution
+
+We reimagined the experience by making AI the interface, not a feature.
+
+Instead of forms, filters, or databases, users simply:
+
+Scan a product label or
+
+Paste ingredients text
+
+The system then:
+
+Infers user intent
+
+Reasons under uncertainty
+
+Translates complexity into clarity
+
+Delivers a verdict designed for common people
